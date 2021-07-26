@@ -1,4 +1,4 @@
-faseparquet
+fastparquet
 flake8
 jupyter
 keras
