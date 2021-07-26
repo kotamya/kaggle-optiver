@@ -1,0 +1,10 @@
+code/
+code-analysis/
+memo/
+model/
+
+input/optiver-realized-volatility-prediction/*
+setup/.vs
+submission/*.csv
+submission/feature_check.ipynb
+submission/model.txt

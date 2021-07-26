@@ -1,0 +1,15 @@
+faseparquet
+flake8
+jupyter
+keras
+lightgbm
+matplotlib
+nbstripout
+numpy
+pandas
+plotly
+pyarrow
+scikit-learn
+scikit-learn-intelex
+tensorflow
+tqdm
