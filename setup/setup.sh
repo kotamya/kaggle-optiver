@@ -15,8 +15,8 @@ fi
 unset __conda_setup
 
 conda update -n base -c defaults conda
-conda create -y -n mlenv python=3.8.8
-conda activate mlenv
+conda create -y -n optiver-env python=3.8.8
+conda activate optiver-env
 conda install -y --file ./requirements.txt
 python -c 'from sklearnex import patch_sklearn; patch_sklearn()'
 conda deactivate
