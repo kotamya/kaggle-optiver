@@ -4,7 +4,7 @@ memo/
 model/
 
 input/optiver-realized-volatility-prediction/*
-!input/optiver-realized-volatility-prediction/sample_submission.csv
+!input/optiver-realized-volatility-prediction/.gitkeep
 setup/.vs
 submission/*.csv
 submission/feature_check.ipynb
