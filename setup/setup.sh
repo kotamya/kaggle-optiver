@@ -14,9 +14,13 @@ else
 fi
 unset __conda_setup
 
+ENV_NAME="optiver-env"
 conda update -n base -c defaults conda
-conda create -y -n optiver-env python=3.8.8
-conda activate optiver-env
+conda remove --n $ENV_NAME --all
+conda create -y -n $ENV_NAME python=3.8.8
+conda activate $ENV_NAME 
+conda config --append channels conda-forge
 conda install -y --file ./requirements.txt
 python -c 'from sklearnex import patch_sklearn; patch_sklearn()'
 conda deactivate
+
