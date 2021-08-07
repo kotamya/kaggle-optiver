@@ -1,4 +1,4 @@
-faseparquet
+fastparquet
 flake8
 jupyter
 keras
@@ -13,3 +13,4 @@ scikit-learn
 scikit-learn-intelex
 tensorflow
 tqdm
+
