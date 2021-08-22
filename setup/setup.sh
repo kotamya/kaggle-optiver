@@ -16,7 +16,7 @@ unset __conda_setup
 
 ENV_NAME="optiver-env"
 conda update -n base -c defaults conda
-conda remove --n $ENV_NAME --all
+conda remove -y -n $ENV_NAME --all
 conda create -y -n $ENV_NAME python=3.8.8
 conda activate $ENV_NAME 
 conda config --append channels conda-forge

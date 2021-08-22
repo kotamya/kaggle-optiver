@@ -6,6 +6,7 @@ lightgbm
 matplotlib
 nbstripout
 numpy
+optuna
 pandas
 plotly
 pyarrow
